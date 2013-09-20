@@ -1,7 +1,6 @@
 package lehrplanung.api;
 
 public interface Kurs {
-	
 	String getKursname() throws Exception;
 	
 	Person getStudiengangsleiter() throws Exception;

@@ -24,4 +24,5 @@ public interface Lehrplanung {
 	Raum erstelleRaum(String gebaeude, String raum) throws Exception;
 
 	Collection<Raum> getFreienRaum(Date datum, Time von, Time bis) throws Exception;
+	
 }
