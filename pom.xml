@@ -6,7 +6,7 @@
 
 	<groupId>de.dhbw.stuttgart.db</groupId>
 	<artifactId>dhbw-lehrplanung</artifactId>
-	<name>Java JDBC Beispielapplikation zur Planung von Lehrveranstaltungen</name>
+	<name>Lehrveranstaltungen</name>
 	<version>0.1-SNAPSHOT</version>
 
 	<dependencies>

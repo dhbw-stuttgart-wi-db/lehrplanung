@@ -15,8 +15,8 @@ public class CommandLineOptions {
 	@Option(name = "-u", aliases = { "--username" }, required = true, usage = "The JDBC database username to use.")
 	public String databaseUsername = null;
 
-	@Option(name = "-p", aliases = { "--password" }, required = true, usage = "The JDBC database password to use.")
-	public String databasePassword = null;
+	@Option(name = "-p", aliases = { "--password" }, required = false, usage = "The JDBC database password to use.")
+	public String databasePassword = "";
 
 	@Option(name = "-l", aliases = { "--logLevel" }, usage = "Set logging level (valid values: TRACE, DEBUG, INFO, WARN, ERROR).", required = false, handler = Log4JLevelOptionHandler.class)
 	public Level logLevel = null;

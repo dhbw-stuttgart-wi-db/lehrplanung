@@ -27,3 +27,4 @@ linkcheck.log*
 luceneindex
 classpath.txt
 nohup.out
+/nbactions.xml
