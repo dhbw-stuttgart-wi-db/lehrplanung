@@ -31,7 +31,7 @@ public class StudiengangImpl implements Studiengang {
 		updateNameStatement.setString(2, kurzbezeichnung);
 
 		this.getStudienrichtungStatement = db.getConnection().prepareStatement(
-				"GET Studiengang, Kurzbezeichnung, Name FROM Studienrichtung WHERE Studiengang = ?");
+				"SELECT Studiengang, Kurzbezeichnung, Name FROM Studienrichtung WHERE Studiengang = ?");
 		getStudienrichtungStatement.setString(1, kurzbezeichnung);
 
 	}
